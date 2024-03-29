@@ -10,3 +10,4 @@ class Monster
     puts "\n"
     puts "Hello there, trainer!"
   end
+end
