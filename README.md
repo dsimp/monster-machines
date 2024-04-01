@@ -1,5 +1,7 @@
-# ruby-cli-template
+# Monster_Machines
 
-Use this repository as a template for your Ruby CLI (command line interface) project.
+A command line interface project, where a great trainer may defeat other Monster Machines.
+
+In the terminal enter 'ruby app.rb' to begin.
 
 - Ruby version: `3.2.1`
