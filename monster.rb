@@ -4,12 +4,12 @@ require_relative "machine"
 class Monster
   attr_accessor :machine, :trainer_name, :matchup, :crowd, :moves, :active_machine, :inactive_machine
 
-  def initialize
+  def initialize 
     @machine = Machine.new
     @trainer_name = trainer_name
     @matchup = Opponent.new
     @crowd = ["BOOOOOOO", "*CROWD ROOOARRSSS*", "YAYYYYYYY"]
-    @moves = @moves =  [
+    @moves = [
       "The Node Negotiator!!",
       "The Unconventional UI!!",
       "The Element Extinguisher!!",
